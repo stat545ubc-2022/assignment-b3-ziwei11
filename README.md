@@ -1,18 +1,23 @@
 # Steam Games Data Plots App
 
 ## App Link
-https://zhaovicky1117.shinyapps.io/assignment-b3-ziwei11/
+https://zhaovicky1117.shinyapps.io/assignment-b4-ziwei11/
 
+## Assignment 4 Option
 
-## Assignment Option
+Option C - Shiny app
+
+https://zhaovicky1117.shinyapps.io/assignment-b4-ziwei11/
+
+## Assignment 3 Option
 
 Option B - my own Shiny app
 
+https://zhaovicky1117.shinyapps.io/assignment-b3-ziwei11/
 
 ## Description
 
 This app uses `steam_games` dataset to show a plot which is a histogram of the original_price in the chosen date range, and a DT table of the data corresponding to the chosen date range.
-
 
 ## Features
 
@@ -34,6 +39,13 @@ This app uses `steam_games` dataset to show a plot which is a histogram of the o
 6. Create an interactive data table by using the DT package, `DT::dataTableOutput()` function, and `DT::renderDataTable()` function
     - Turn a static table into an interactive table.
 
+Additional features for Assignment 4:
+
+7. Allow the user to download the table as a .csv file using `downloadButton()` function.
+
+8. Allow the user to select different variables to display in the plot using `selectInput()` function.
+
+9. Add CSS to make the app look nicer. The color of background and UI elements are changed to match steam-like color palette.
 
 ## Dataset Acknowledgement
 

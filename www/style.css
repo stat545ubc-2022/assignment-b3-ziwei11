@@ -1,0 +1,33 @@
+body {
+  background-color: #171a21;
+  color: #c7d5e0;
+}
+
+.well {
+  background-color: #2a475e;
+  color: #c7d5e0;
+  border-color: #66c0f4;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  background-color: #c7d5e0;
+}
+
+a {
+  color: #66c0f4
+}
+
+.dataTable {
+  background-color: #c7d5e0;
+  border-radius: 8px;
+}
+
+.dataTables_info, .dataTables_length, .dataTables_filter {
+  color: #c7d5e0 !important;
+}
+
+.dataTables_paginate {
+  margin-top: 6px;
+  background-color: #c7d5e0;
+  border-radius: 6px;
+}
